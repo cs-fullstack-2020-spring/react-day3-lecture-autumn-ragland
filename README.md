@@ -18,6 +18,6 @@
 - Define a second property of `this.state` as `leastFavDog` and set the value to `"chihuahua"`
 - Render the value of `leastFavDog` as an h3 tag below the list of dogs
 
-### Using lifecycle hooks
+### Using lifecycle methods
 - Create a class method called `componentDidMount`
 - Call `this.setState` in the `componentDidMount` method to update the value of `favDog` to `"your dog"` and `leastFavDog` to `"yorkie"` 
