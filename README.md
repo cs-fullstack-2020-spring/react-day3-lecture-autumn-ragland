@@ -15,12 +15,9 @@
 - In the constructor of `Pets` add `this.state` and set it equal to an empty object
 - Define one property of `this.state` as `favDog` and set the value to `"my dog"`
 - Render the value of `favDog` as an h3 tag below the list of dogs
-- Use `this.setState` in your render method above the return to update the value of `favDog` to `"your dog"`
 - Define a second property of `this.state` as `leastFavDog` and set the value to `"chihuahua"`
 - Render the value of `leastFavDog` as an h3 tag below the list of dogs
-- Use `this.setState` in your render method above the return to update the value of `"favDog"` to `"yorkie"`
 
 ### Using lifecycle hooks
-- Remove the `this.setState` methods from the render method in the `Pets` component
 - Create a class method called `componentDidMount`
-- Call `this.setState` in the `componentDidMount` method to update the value of `favDog` and `leastFavDog` 
+- Call `this.setState` in the `componentDidMount` method to update the value of `favDog` to `"your dog"` and `leastFavDog` to `"yorkie"` 
